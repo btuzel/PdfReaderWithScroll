@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/songduration"
+        android:hint="put song duration in seconds"
+        android:layout_height="60dp">
+
+    </EditText>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/scrollView"
+
+        android:layout_height="match_parent">
+
+        <com.github.barteksc.pdfviewer.PDFView
+            android:id="@+id/pdfView"
+            android:layout_width="match_parent"
+            android:layout_height="3200dp"/>
+    </ScrollView>
+
+
+</LinearLayout>

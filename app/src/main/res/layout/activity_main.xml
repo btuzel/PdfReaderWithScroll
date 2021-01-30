@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/assetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fromasset" />
+
+    <Button
+        android:id="@+id/storageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fromstorage" />
+
+    <Button
+        android:id="@+id/onlineButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="frominternet" />
+    <EditText
+        android:layout_width="match_parent"
+        android:text="Type in url"
+        android:id="@+id/linkforpdf"
+        android:layout_height="wrap_content"
+        ></EditText>
+</LinearLayout>
